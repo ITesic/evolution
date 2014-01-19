@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="25b00521-53d7-4b65-b541-1da67ca04c2f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Evolution.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,7 +30,18 @@
       <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="14" selection-start="1809" selection-end="1809" vertical-scroll-proportion="0.6229008" vertical-offset="272" max-vertical-offset="1479">
+            <state line="84" column="55" selection-start="4455" selection-end="4455" vertical-scroll-proportion="0.19541985" vertical-offset="1300" max-vertical-offset="3519">
+              <folding>
+                <marker date="1390162880613" expanded="true" signature="10050:10287" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="216" column="41" selection-start="5535" selection-end="5535" vertical-scroll-proportion="0.0" vertical-offset="3236" max-vertical-offset="8075">
               <folding />
             </state>
           </provider>
@@ -52,6 +65,8 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/css/foundation.css" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
@@ -105,6 +120,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Evolution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Evolution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Evolution" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -215,10 +244,26 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/css/foundation.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="119" selection-end="119" vertical-scroll-proportion="0.02496329" vertical-offset="0" max-vertical-offset="90729">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="216" column="41" selection-start="5535" selection-end="5535" vertical-scroll-proportion="0.0" vertical-offset="3236" max-vertical-offset="8075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="14" selection-start="1809" selection-end="1809" vertical-scroll-proportion="0.6229008" vertical-offset="272" max-vertical-offset="1479">
-          <folding />
+        <state line="84" column="55" selection-start="4455" selection-end="4455" vertical-scroll-proportion="0.19541985" vertical-offset="1300" max-vertical-offset="3519">
+          <folding>
+            <marker date="1390162880613" expanded="true" signature="10050:10287" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>

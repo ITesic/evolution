@@ -97,16 +97,173 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+body {
+    background: url("../img/bg.jpg");
+    color: #fefefe;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    color: #f0f0f0;
+}
+
+h1, h2, h3 {
+    color: #f0f0f0;
+}
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 1.7rem;
+}
+
+/* MAIN MENU */
+
+.main-menu {
+    position: fixed;
+    width: 250px;
+}
+    .main-menu ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-align: center;
+    }
+        .main-menu ul li {
+            display: block;
+            margin: .7rem auto;
+            width: 5rem;
+            height: 5rem;
+            border-radius: 50%;
+            text-align: center;
+            padding: 2px;
+            border: 1px solid transparent;
+        }
+            .main-menu ul li a {
+                display: inline-block;
+                width: 100%;
+                height: 100%;
+                line-height: 5rem;
+                vertical-align: middle;
+                border-radius: 50%;
+                background: #003f54;
+                color: #f0f0f0;
+                text-indent: -9999px;
+            }
+                .main-menu ul li:hover {
+                    width: 6rem;
+                    height: 6rem;
+                    border: 1px solid #bebebe;
+                    margin: -0.5rem auto -0.5rem;
+                }
+                .main-menu ul li.active {
+                    width: 7rem;
+                    height: 7rem;
+                    margin: .7rem auto .7rem;
+                    border: none;
+                }
+                    .main-menu ul li.active:hover {
+                        border: 1px solid #bebebe;
+                    }
+                    .main-menu ul li.active:hover a {
+                        line-height: 6.55rem;
+                    }
+                    .main-menu ul li.active a {
+                        text-indent: 0;
+                        background-image: none;
+                        line-height: 6.65rem;
+                    }
+                    .main-menu ul li:hover a {
+                        line-height: 5.5rem;
+                        text-indent: 0;
+                    }
+        .main-menu ul li.logo {
+            width: 12rem;
+            height: 12rem;
+        }
+            .main-menu ul li.logo:hover {
+                margin: .7rem auto .5rem;
+            }
+                .main-menu ul li.logo:hover a h1 {
+                    text-indent: -9999px;
+                }
+            .main-menu ul li.logo a {
+                width: 100%;
+                height: 100%;
+                background: url("../img/logo.png") center center no-repeat #5e7ba7;
+            }
+            .logo h1 {
+                text-indent: -9999px;
+            }
+        .main-menu ul li.about a {
+            background: url("../img/icons/conference_call-white.png") center center no-repeat #87b44e;
+        }
+            .main-menu ul li.about:hover a,
+            .main-menu ul li.about.active a {
+                background: #87b44e;
+            }
+        .main-menu ul li.portfolio a {
+            background: url("../img/icons/briefcase-white.png") center center no-repeat #65b3b9;
+        }
+            .main-menu ul li.portfolio:hover a,
+            .main-menu ul li.portfolio.active a {
+                background: #65b3b9;
+            }
+        .main-menu ul li.hire a {
+            background: url("../img/icons/handshake-white.png") center center no-repeat #db5640;
+        }
+            .main-menu ul li.hire:hover a,
+            .main-menu ul li.hire.active a {
+                background: #db5640;
+            }
+        .main-menu ul li.contact a{
+            background: url("../img/icons/message-white.png") center center no-repeat #e6bc3c;
+        }
+            .main-menu ul li.contact:hover a,
+            .main-menu ul li.contact.active a {
+                background: #e6bc3c;
+            }
+
+/* PAGES */
+
+.page {
+    min-height: 500px;
+}
+    .page img {
+        width: 100%;
+    }
+
+.round-item {
+    position: relative;
+    border-radius: 50%;
+    border: 5px solid rgba(255, 255, 255, .4);
+    overflow: hidden;
+}
+.item-hover {
+    position: absolute;
+    display: none;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding: 3rem 1.5rem 1rem;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.round-item:hover .item-hover {
+    display: block;
+}
 
 
+/* ABOUT */
+
+.team-member-info {
+    background: rgba(0,0,0,.8);
+}
 
 
+/* PORTFOLIO */
 
-
-
-
-
-
+.portfolio-item-info {
+    background: rgba(0,0,0,.8);
+}
 
 
 
@@ -212,6 +369,14 @@ textarea {
 
 .clearfix {
     *zoom: 1;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.relative {
+    position: relative;
 }
 
 /* ==========================================================================
